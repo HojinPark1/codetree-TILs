@@ -1,0 +1,5 @@
+Hoj = input().split()
+a=int(Hoj[0])
+b=int(Hoj[1])
+c=int(input())
+print(a, b, c)

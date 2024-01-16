@@ -1,0 +1,5 @@
+Date=input().split("-")
+a = int(Date[0])
+b = int(Date[1])
+c = int(Date[2])
+print(c, ".",a, ".",b, sep = '')

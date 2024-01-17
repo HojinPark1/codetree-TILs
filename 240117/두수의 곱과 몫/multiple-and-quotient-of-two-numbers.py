@@ -1,5 +1,5 @@
 H=input().split()
 a=int(H[0])
 b=int(H[1])
-print(f"{a} * {b} = 1500")
-print(f"{a} / {b} = 60")
+print(f"{a} * {b} = 169")
+print(f"{a} / {b} = 1")

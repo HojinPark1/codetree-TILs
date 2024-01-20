@@ -1,11 +1,11 @@
 n=input().split()
 a=int(n[0])
 b=int(n[1])
-if n<90:
+if a<90:
     print("0")
-elif n>=90 and m<90:
+elif a>=90 and b<90:
     print("0")
-elif n>=90 and m>=90 and m<95:
+elif a>=90 and b>=90 and b<95:
     print("50000")
-elif n>=90 and m>=95:
+elif a>=90 and b>=95:
     print("100000")

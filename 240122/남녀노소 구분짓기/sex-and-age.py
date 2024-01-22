@@ -1,5 +1,5 @@
-S=input()
-A=input()
+S=int(input())
+A=int(input())
 if S == 0:
     if A >= 19:
         print("MAN")

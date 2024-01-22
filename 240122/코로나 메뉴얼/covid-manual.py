@@ -23,3 +23,12 @@ elif p1 == "Y" and q1 == "N" and r1 == "Y":
         print("E")
     else:
         print("N")
+elif: p1 == "Y" and q1 == "Y" and r1 == "Y":
+    if p2 =< 37 and q2 <= 37:
+        print("N")
+    elif p2 =< 37 and r2 <= 37:
+        print("N")
+    elif q2 =< 37 and r2 =< 37:
+        print("N")
+    else:
+        print("E")

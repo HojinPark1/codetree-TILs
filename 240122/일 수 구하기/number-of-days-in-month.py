@@ -1,5 +1,5 @@
 n=int(input())
-if n == 1 or 3 or 5 or 7 or 8 or 10 or 12:
+if n == 1 or n ==3 or n==5 or n==7 or n==8 or n==10 or n== 12:
     print("31")
 elif n == 2:
     print("28")

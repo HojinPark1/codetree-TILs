@@ -32,3 +32,5 @@ elif p1 == "Y" and q1 == "Y" and r1 == "Y":
         print("N")
     else:
         print("E")
+else:
+    print("N")

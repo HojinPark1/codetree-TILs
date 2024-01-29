@@ -7,4 +7,4 @@ for i in range(1,n+1):
     elif i % 10 == 3 or 1 % 10 == 6 or i % 10 == 9:
         print("0", end=' ')
     else:
-        print(i)
+        print(i, end=' ')

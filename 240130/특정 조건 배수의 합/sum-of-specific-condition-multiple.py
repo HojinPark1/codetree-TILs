@@ -9,5 +9,5 @@ if b >= a:
 elif a >= b:
     for i in range(b, a+1):
         if i % 5 == 0:
-            k += i
+            K += i
 print(K)

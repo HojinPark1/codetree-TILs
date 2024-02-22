@@ -6,7 +6,7 @@ for i in range(n):
         print("*", end=' ')
     print()
 for i in range(n-1):
-    for j in range(n-i*2):
+    for j in range():
         print("", end=' ')
     for j in range(i*2+3):
         print("*", end=' ')

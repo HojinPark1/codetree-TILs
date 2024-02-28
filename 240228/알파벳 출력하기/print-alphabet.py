@@ -5,7 +5,7 @@ for i in range(n):
         if k != ord('Z'):
             print(chr(k), end='')
             k+=1
-        if k == ord('Z'):
+        if k >= ord('Z'):
             print(chr(k), end='')
             k=ord('A')
     print()

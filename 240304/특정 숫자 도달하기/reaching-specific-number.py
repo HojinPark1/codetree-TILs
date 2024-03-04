@@ -5,6 +5,10 @@ for i in range(10):
     if n[i] < 250:
         n_sum+=int(n[i])
         n_num+=1
+        if n[9]<250:
+            n_sum+=int(n[i])
+            n_num+=1
+            print(f"{n_sum} {(n_sum/n_num):.1f}")
     else:
         print(f"{n_sum} {(n_sum/n_num):.1f}")
         break

@@ -1,15 +1,15 @@
 n = list(map(int, input().split()))
 n_sum=0
 n_num=0
+n2_sum=0
+n2=list()
 for i in range(10):
     if n[i] < 250:
-        n_sum+=int(n[i])
+        n2.append(n[i])
         n_num+=1
     else:
-        if n[9]<250:
-            n_sum+=int(n[i])
-            n_num+=1
-            print(f"{n_sum} {(n_sum/n_num):.1f}")
-            break
-        print(f"{n_sum} {(n_sum/n_num):.1f}")
         break
+
+for j in range(len(n2)):
+    n2_sum+=n2[j]
+print(f"{n2_sum} {n2_sum/n_num:.1f}")

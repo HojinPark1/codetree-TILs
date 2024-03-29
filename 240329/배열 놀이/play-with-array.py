@@ -10,5 +10,6 @@ for _ in range(k1[1]):
         else:
             print(0)
     if k3[0] == 3:
-        for i in range(k3[1]-1, (k3[2])):
+        for i in range(k3[1]-1, k3[2]):
             print(k2[i], end=' ')
+        print()

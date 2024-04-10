@@ -7,10 +7,11 @@ for i in range(n1):
     for j in range(n2):
         if i + j >= n1:
             success = False
+            print('No')
             break
         if A[i + j] != B[j]:
             success = False
+            print('No')
             break
     if success:
         print("Yes")
-print('No')

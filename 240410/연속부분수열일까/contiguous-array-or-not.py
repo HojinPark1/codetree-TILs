@@ -14,6 +14,9 @@ for i in range(n1):
             break
         else:
             ans = True
+            break
+    if ans = True:
+        break
 
 if ans == True:
     print('Yes')

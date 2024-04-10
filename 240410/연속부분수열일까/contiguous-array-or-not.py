@@ -1,3 +1,5 @@
+import sys
+
 n1, n2 = map(int, input().split())
 A=list(map(int, input().split()))
 B=list(map(int, input().split()))
@@ -12,12 +14,7 @@ for i in range(n1):
         if A[i + j] != B[j]:
             ans = False
             break
-        else:
-            ans = True
-            break
-    break
+    if ans:
+        sys.exit()
 
-if ans == True:
-    print('Yes')
-else:
-    print('No')
+print('No')

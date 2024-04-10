@@ -1,22 +1,21 @@
-n1, n2 = tuple(map(int, input().split()))
+n1, n2 = map(int, input().split())
 A=list(map(int, input().split()))
 B=list(map(int, input().split()))
 
+ans = True
+
 for i in range(n1):
-    success = True
     for j in range(n2):
         if i + j >= n1:
-            success = False
+            ans = False
             break
         if A[i + j] != B[j]:
-            success = False
+            ans = False
             break
         else:
-            success = True
-            break
-    if success == True:
-        print("Yes")
-        break
-    if success == False:
-        print('No')
-        break
+            ans = True
+
+if ans == True:
+    print('Yes')
+else:
+    print('No')

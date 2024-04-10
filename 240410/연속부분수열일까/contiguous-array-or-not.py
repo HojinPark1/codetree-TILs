@@ -11,6 +11,9 @@ for i in range(n1):
         if A[i + j] != B[j]:
             success = False
             break
+        else:
+            success = True
+            break
     if success == True:
         print("Yes")
         break

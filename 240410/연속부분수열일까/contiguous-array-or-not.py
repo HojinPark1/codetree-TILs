@@ -13,6 +13,7 @@ for i in range(n1):
             break
     if success == True:
         print("Yes")
-
-if success == False:
-    print('No')
+        break
+    if success == False:
+        print('No')
+        break

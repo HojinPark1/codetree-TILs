@@ -1,17 +1,14 @@
 n=int(input())
 arr=list(map(int, input().split()))
 arr2=[]
-cnt=0
 
 for i in range(len(arr)):
-    for j in range(n):
+    arr2.append(arr[i])
+    for j in range(len(arr)):
         if i != j and arr[i] == arr[j]:
-            pass
-        else:
-            cnt+=1
-            arr2.append(arr[j])
+            arr2.remove(arr[j])
 
-if cnt == 0:
+if arr2==[]:
     print(-1)
 else:
     print(max(arr2))

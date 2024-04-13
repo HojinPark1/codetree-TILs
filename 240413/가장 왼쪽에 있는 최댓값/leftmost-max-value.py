@@ -7,3 +7,6 @@ while len(arr) > 1:
     max_arr_index = arr.index(max(arr))
     arr = arr[0:max_arr_index]
     print(max_arr_index+1, end=' ')
+
+if len(arr) == 1:
+    print(1)
